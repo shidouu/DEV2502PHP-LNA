@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteBase /
+#RewriteRule ^([^/]+)/([$^/]+)$ index.php?controller=$1&action=$2 [L]
+# Quy tắc chuyển URL từ /controller/action -> index.php?controller=users&action=index
+#RewriteRule ^([^/]+)/([$^/]+)$ index.php?controller=$1&action=$2 [L, QSA]
